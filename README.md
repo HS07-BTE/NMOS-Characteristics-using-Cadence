@@ -27,8 +27,7 @@ The following operating regions can be observed:
 - Cutoff region
 - Linear/Triode region
 - Saturation region
-
-
+- ![NMOS ID-VDS Characteristics](Screenshot%202026-08-09%20175931.png)
 ## 2. ID vs VGS
 
 The gate voltage VGS is swept for different values of VDS.
