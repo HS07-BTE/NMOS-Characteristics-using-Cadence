@@ -31,7 +31,7 @@ The following operating regions can be observed:
 
 The drain voltage VDS is swept while VGS is varied.
 
-![NMOS ID-VDS Characteristics](images/NMOS_ID_VGS.png)
+![NMOS ID-VDS Characteristics](images/NMOS_ID_VDS.png)
   
 ## 2. ID vs VGS
 
