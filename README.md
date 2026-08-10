@@ -27,6 +27,11 @@ The following operating regions can be observed:
 - Cutoff region
 - Linear/Triode region
 - Saturation region
+- ## 1. ID vs VDS
+
+The drain voltage VDS is swept while VGS is varied.
+
+![NMOS ID-VDS Characteristics](images/NMOS_ID_VGS.png)
   
 ## 2. ID vs VGS
 
