@@ -6,8 +6,8 @@ This project demonstrates the DC characterization of an NMOS transistor using **
 
 To obtain and analyze:
 
-- **Drain current ID vs Drain-to-Source Voltage VDS characteristics for different VGS values.
-- **Drain current ID vs Gate-to-Source Voltage VGS** characteristics for different VDS values.
+- Drain current ID vs Drain-to-Source Voltage VDS characteristics for different VGS values.
+- Drain current ID vs Gate-to-Source Voltage VGS** characteristics for different VDS values.
 
 ## Tools Used
 
