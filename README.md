@@ -6,8 +6,8 @@ This project demonstrates the DC characterization of an NMOS transistor using **
 
 To obtain and analyze:
 
-- **Drain current (\(I_D\)) vs Drain-to-Source Voltage (\(V_{DS}\))** characteristics for different \(V_{GS}\) values.
-- **Drain current (\(I_D\)) vs Gate-to-Source Voltage (\(V_{GS}\))** characteristics for different \(V_{DS}\) values.
+- **Drain current ID vs Drain-to-Source Voltage VDS characteristics for different VGS values.
+- **Drain current ID vs Gate-to-Source Voltage VGS** characteristics for different VDS values.
 
 ## Tools Used
 
@@ -18,48 +18,47 @@ To obtain and analyze:
 
 ## 1. ID vs VDS
 
-The drain voltage \(V_{DS}\) is swept while \(V_{GS}\) is varied.
+The drain voltage VDS is swept while VGS is varied.
 
-The graph shows the typical NMOS output characteristics. As \(V_{GS}\) increases, the drain current increases.
+The graph shows the typical NMOS output characteristics. As VGS increases, the drain current increases.
 
 The following operating regions can be observed:
 
 - Cutoff region
 - Linear/Triode region
 - Saturation region
-- C:\users\harisankar s\Pictures\Screenshots\Screenshot 2026-08-09 185433.png
 
-## 2. \(I_D\) vs \(V_{GS}\)
 
-The gate voltage \(V_{GS}\) is swept for different values of \(V_{DS}\).
+## 2. ID vs VGS
 
-The transistor remains approximately in cutoff below the threshold voltage \(V_{TH}\). Above \(V_{TH}\), the drain current increases with \(V_{GS}\).
+The gate voltage VGS is swept for different values of VDS.
 
-![NMOS \(I_D\)-\(V_{GS}\) Characteristics](images/NMOS_ID_VGS.png)
+The transistor remains approximately in cutoff below the threshold voltage VTH. Above VTH, the drain current increases with VGS.
+
 
 ## Simulation Setup
 
 ### Output Characteristics
 
-- Sweep variable: \(V_{DS}\)
-- Parameter: \(V_{GS}\)
-- \(V_{GS}\) values: 0 V to 1.8 V
-- \(V_{DS}\) sweep: 0 V to 1.8 V
+- Sweep variable: VDS
+- Parameter: VGS
+- VGS values: 0 V to 1.8 V
+- VDS sweep: 0 V to 1.8 V
 
 ### Transfer Characteristics
 
-- Sweep variable: \(V_{GS}\)
-- Parameter: \(V_{DS}\)
-- \(V_{DS}\) values: 0 V to 1.8 V
-- \(V_{GS}\) sweep: 0 V to 1.8 V
+- Sweep variable: VGS
+- Parameter: VDS
+- VDS values: 0 V to 1.8 V
+- VGS sweep: 0 V to 1.8 V
 
 ## Observations
 
-- Increasing \(V_{GS}\) increases the NMOS drain current.
-- For sufficiently high \(V_{DS}\), the transistor enters saturation.
-- The output characteristics demonstrate the dependence of \(I_D\) on both \(V_{GS}\) and \(V_{DS}\).
+- Increasing VGS increases the NMOS drain current.
+- For sufficiently high VDS, the transistor enters saturation.
+- The output characteristics demonstrate the dependence of ID on both VGS and VDS.
 - The curves can be used to estimate parameters such as threshold voltage and transconductance.
 
 ## Conclusion
 
-The NMOS transistor was successfully characterized using Cadence Virtuoso. The simulated \(I_D-V_{DS}\) and \(I_D-V_{GS}\) characteristics agree with the expected qualitative behavior of an NMOS transistor.
+The NMOS transistor was successfully characterized using Cadence Virtuoso. The simulated ID-VDS and ID-VGS characteristics agree with the expected qualitative behavior of an NMOS transistor.
