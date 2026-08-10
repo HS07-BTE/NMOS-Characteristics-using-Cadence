@@ -1,0 +1,66 @@
+# NMOS Characterization Using Cadence Virtuoso
+
+This project demonstrates the DC characterization of an NMOS transistor using **Cadence Virtuoso** and **Spectre Simulator**.
+
+## Objective
+
+To obtain and analyze:
+
+- **Drain current (\(I_D\)) vs Drain-to-Source Voltage (\(V_{DS}\))** characteristics for different \(V_{GS}\) values.
+- **Drain current (\(I_D\)) vs Gate-to-Source Voltage (\(V_{GS}\))** characteristics for different \(V_{DS}\) values.
+
+## Tools Used
+
+- Cadence Virtuoso
+- Spectre Simulator
+- NMOS device
+- DC Sweep Analysis
+
+## 1. \(I_D\) vs \(V_{DS}\)
+
+The drain voltage \(V_{DS}\) is swept while \(V_{GS}\) is varied.
+
+The graph shows the typical NMOS output characteristics. As \(V_{GS}\) increases, the drain current increases.
+
+The following operating regions can be observed:
+
+- Cutoff region
+- Linear/Triode region
+- Saturation region
+
+![NMOS \(I_D\)-\(V_{DS}\) Characteristics](images/NMOS_ID_VDS.png)
+
+## 2. \(I_D\) vs \(V_{GS}\)
+
+The gate voltage \(V_{GS}\) is swept for different values of \(V_{DS}\).
+
+The transistor remains approximately in cutoff below the threshold voltage \(V_{TH}\). Above \(V_{TH}\), the drain current increases with \(V_{GS}\).
+
+![NMOS \(I_D\)-\(V_{GS}\) Characteristics](images/NMOS_ID_VGS.png)
+
+## Simulation Setup
+
+### Output Characteristics
+
+- Sweep variable: \(V_{DS}\)
+- Parameter: \(V_{GS}\)
+- \(V_{GS}\) values: 0 V to 1.8 V
+- \(V_{DS}\) sweep: 0 V to 1.8 V
+
+### Transfer Characteristics
+
+- Sweep variable: \(V_{GS}\)
+- Parameter: \(V_{DS}\)
+- \(V_{DS}\) values: 0 V to 1.8 V
+- \(V_{GS}\) sweep: 0 V to 1.8 V
+
+## Observations
+
+- Increasing \(V_{GS}\) increases the NMOS drain current.
+- For sufficiently high \(V_{DS}\), the transistor enters saturation.
+- The output characteristics demonstrate the dependence of \(I_D\) on both \(V_{GS}\) and \(V_{DS}\).
+- The curves can be used to estimate parameters such as threshold voltage and transconductance.
+
+## Conclusion
+
+The NMOS transistor was successfully characterized using Cadence Virtuoso. The simulated \(I_D-V_{DS}\) and \(I_D-V_{GS}\) characteristics agree with the expected qualitative behavior of an NMOS transistor.
