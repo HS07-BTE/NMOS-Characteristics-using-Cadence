@@ -27,8 +27,7 @@ The following operating regions can be observed:
 - Cutoff region
 - Linear/Triode region
 - Saturation region
-
-![NMOS \(I_D\)-\(V_{DS}\) Characteristics](images/NMOS_ID_VDS.png)
+- C:\users\harisankar s\Pictures\Screenshots\Screenshot 2026-08-09 185433.png
 
 ## 2. \(I_D\) vs \(V_{GS}\)
 
