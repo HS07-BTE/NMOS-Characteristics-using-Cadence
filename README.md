@@ -16,7 +16,7 @@ To obtain and analyze:
 - NMOS device
 - DC Sweep Analysis
 
-## 1. \(ID\ vs \VDS\
+## 1. ID vs VDS
 
 The drain voltage \(V_{DS}\) is swept while \(V_{GS}\) is varied.
 
