@@ -39,7 +39,7 @@ The gate voltage VGS is swept for different values of VDS.
 
 The transistor remains approximately in cutoff below the threshold voltage VTH. Above VTH, the drain current increases with VGS.
 
-
+![NMOS ID-VGS Characteristics](images/NMOS_ID_VGS.png)
 ## Simulation Setup
 
 ### Output Characteristics
